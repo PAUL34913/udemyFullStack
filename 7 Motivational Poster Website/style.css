@@ -1,0 +1,30 @@
+/* General page properties */
+body {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    font-family: Arial, sans-serif; /* Sets a default font for the page */
+    background-color: #000000; /* Sets a light gray background color */
+    color: #ffffff; /* Sets a default text color */
+}
+
+.centered-div {
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(0, 0, 0); /* Optional: to visualize the div */
+    padding: 0px; /* Optional: to add some padding inside the div */
+    text-align: center; /* Optional: to center the text inside the div */
+}
+
+img {
+    border: 5px solid white;
+    width: 100%;
+    margin-top: 50px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: small;
+}
