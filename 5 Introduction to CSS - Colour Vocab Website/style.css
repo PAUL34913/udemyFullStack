@@ -1,9 +1,37 @@
-/*1. Create a CSS file and incorporate it as an external stylesheet.
-2. Use CSS to style each of the color titles to meaning. 
-Hint: Use the id to help if you don't know the words in spanish.
-3. Use CSS to change all the color titles to have "font-weight: normal;"
-4. Use CSS (not HTML) to make all the images 200px heigh and 200px wide. 
-*/
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the images */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+/* Individual image boxes */
+.image-box {
+    flex: 1 1 calc(20% - 10px);
+    margin: 5px;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+    .image-box {
+        flex: 1 1 100%;
+    }
+}
+
 
 #red {
     color: red; /* Change the font color to blue */
