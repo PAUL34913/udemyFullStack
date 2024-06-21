@@ -1,19 +1,10 @@
-/* General page properties */
 body {
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-    font-family: Arial, sans-serif; /* Sets a default font for the page */
-    background-color: #000000; /* Sets a light gray background color */
-    color: #ffffff; /* Sets a default text color */
-}
+    margin: 0;     padding: 0;     font-family: Arial, sans-serif;     background-color: #000000;     color: #ffffff; }
 
 .centered-div {
     width: 50%;
     margin-left: 25%;
-    background-color: rgb(0, 0, 0); /* Optional: to visualize the div */
-    padding: 0px; /* Optional: to add some padding inside the div */
-    text-align: center; /* Optional: to center the text inside the div */
-}
+    background-color: rgb(0, 0, 0);     padding: 0px;     text-align: center; }
 
 img {
     border: 5px solid white;

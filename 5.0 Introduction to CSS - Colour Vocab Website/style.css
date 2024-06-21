@@ -1,11 +1,9 @@
-/* General styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Container for the images */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +11,6 @@ body {
     
 }
 
-/* Individual image boxes */
 .image-box {
     flex: 1 1 calc(20% - 10px);
     margin: 5px;
@@ -25,7 +22,6 @@ body {
     display: block;
 }
 
-/* Responsive layout */
 @media (max-width: 600px) {
     .image-box {
         flex: 1 1 100%;
@@ -34,24 +30,19 @@ body {
 
 
 #red {
-    color: red; /* Change the font color to blue */
-}
+    color: red; }
 
 #blue {
-    color: blue; /* Change the font color to blue */
-}
+    color: blue; }
 
 #orange {
-    color: orange; /* Change the font color to blue */
-}
+    color: orange; }
 
 #green {
-    color: green; /* Change the font color to blue */
-}
+    color: green; }
 
 #yellow {
-    color: yellow; /* Change the font color to blue */
-}
+    color: yellow; }
 
 .color-title {
     font-weight: normal;
