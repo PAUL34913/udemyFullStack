@@ -19,24 +19,28 @@ body {
 }
 
 .cloud1 {
-    width: 300px;
-    position: absolute;
+    width: 60vw;
+    
     left: 300px;
     top: 20px; /* Adjust top position as needed */
 }
 
 .cloud2 {
-    width: 300px;
+    width: 60vw;
     position: absolute;
-    right: 50px;
+    left: 600px;
     top: 10px; /* Adjust top position as needed */
 }
 
 .header-paragraph {
+    position: absolute;
+    z-index: 10;
+    top: 50px;
     padding-top: 30px;
     padding-left: 10vw;
     padding-bottom: 15vw;
     font-size: min(5vw, 1.5rem);
+    -webkit-text-stroke: 0.5px black; /* Outline width and color */
 }
 
 .mountain-container {
