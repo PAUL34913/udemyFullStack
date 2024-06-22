@@ -86,9 +86,12 @@ body {
 
 
 .hello {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    width: 80%; /* Cover 80% of the width */
+    max-width: 800px;
+    margin: 0 auto; /* Center align horizontally */
+    text-align: center; /* Center align text */
 }
+
 
 hr {
     border: dotted #000000 6px;
@@ -103,10 +106,12 @@ hr {
 .box1 {
     display: inline-block;
     width: 40%;
+    max-width: 200px;
     background-color: #ffffff;
     color: #000;
     margin: 10px; /* Add some margin between boxes */
     vertical-align: middle; /* Align boxes at the top */
+    text-align: left;
 }
 
 .box2 {
@@ -116,12 +121,31 @@ hr {
     color: #000;
     margin: 10px; /* Add some margin between boxes */
     vertical-align: middle; /* Align boxes at the top */
+    text-align: left;
 }
 
 
 
 .box1 img {
-    width: 20vw;
-    max-width: 200px;
+    width: 40vw;
+    max-width: 125px;
     vertical-align: middle;
+}
+
+.myskills {
+    max-width: 1200px; /* Set the maximum width */
+    margin: 0 auto; /* Center align the container */
+}
+
+.work-image img {
+    width: 80vw;
+    max-width: 800px;
+    
+    outline: 1px solid black;
+}
+
+.work-text {
+    width: 80vw;
+    max-width: 800px;
+    margin: auto;
 }
