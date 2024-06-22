@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    background-color: deepskyblue;
+    width: 100%;
+    height: 754px; /* Adjust height as needed */
+    position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.cloud1 {
+    width: 300px;
+    position: absolute;
+    left: 300px;
+    top: 20px; /* Adjust top position as needed */
+}
+
+.cloud2 {
+    width: 300px;
+    position: absolute;
+    right: 50px;
+    top: 10px; /* Adjust top position as needed */
+}
+
+.header-paragraph {
+    padding-top: 30px;
+    padding-left: 10vw;
+    padding-bottom: 15vw;
+    font-size: min(5vw, 1.5rem);
+}
+
+.mountain-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 1200px;
+    display: flex;
+    align-items: flex-end; /* Align items to the bottom */
+}
+
+.mountain-content {
+    flex: 1;
+    padding-left: 10vw; /* Adjust padding as needed */
+}
+
+.mountain {
+    width: 100%; /* Adjust width as needed */
+}
+
+.aboutme {
+ color: #000; 
+ text-align: center;  
+}
+
+.myphoto-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: rgb(255, 255, 255); /* Optional: Background color for visibility */
+    padding-top: 100px;
+}
+
+.myphoto {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.hello {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+
