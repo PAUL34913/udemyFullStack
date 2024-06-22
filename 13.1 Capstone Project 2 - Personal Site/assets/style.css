@@ -81,7 +81,8 @@ body {
 .myphoto {
     width: 150px;
     border-radius: 50%;
-    border: 10px solid rgb(16, 160, 232); /* Border style */
+    border: 10px solid rgb(33, 113, 188); /* Border style */
+    outline: 1px solid black;
 }
 
 
@@ -140,7 +141,7 @@ hr {
 .work-image img {
     width: 80vw;
     max-width: 800px;
-    
+    filter: hue-rotate(180deg); /* Rotate colors towards blue */
     outline: 1px solid black;
 }
 
@@ -148,4 +149,23 @@ hr {
     width: 80vw;
     max-width: 800px;
     margin: auto;
+}
+
+.email-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    outline: 1px solid black;
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline from link */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.email-button:hover {
+    background-color: #007bff; /* Darker background color on hover */
+    color: #000000;
+    outline: 1px solid #000000;
 }
