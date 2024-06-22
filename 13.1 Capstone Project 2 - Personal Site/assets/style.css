@@ -175,9 +175,7 @@ hr {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: relative
-    bottom: 0;
-    width: 100%;
+    position: relative;
 }
 
 .footer p {
