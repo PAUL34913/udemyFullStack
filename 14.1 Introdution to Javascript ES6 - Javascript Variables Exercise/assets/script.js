@@ -7,11 +7,11 @@ function swapVariables() {
 
     document.getElementById('chosenMessage').textContent = "Using the numbers you have chosen, the variables have been set as follows:";
 
-    document.getElementById('outputA').textContent = "a = " + num1 + " b = " + num2;
+    document.getElementById('outputA').textContent = "a = " + num1 + " and b = " + num2;
 
     [num1, num2] = [num2, num1];
    
     document.getElementById('swapMessage').textContent = "By switching the variables using arrays [a, b] = [b, a], we can see that the variables have now switched places:";
 
-    document.getElementById('outputB').textContent = "a = " + num1 + " b = " + num2;
+    document.getElementById('outputB').textContent = "a = " + num1 + " and  b = " + num2;
 }
